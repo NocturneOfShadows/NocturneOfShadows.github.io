@@ -3463,6 +3463,21 @@ fieldset:disabled .btn {
     pointer-events: none
 }
 
+.btn-pdf {
+    color: #65b5f6;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+.btn-pdf:hover {
+    transform: scale(1.1);
+}
+
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #2f3f9f;
